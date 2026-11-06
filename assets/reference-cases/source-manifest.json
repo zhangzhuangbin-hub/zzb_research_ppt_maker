@@ -1,0 +1,261 @@
+[
+  {
+    "case": 1,
+    "source_filename": "codex-clipboard-de9f04a8-c024-408f-88dc-57b2858d53c7.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "2d9e5e9c68a7e0ad7ff36239ba750d0d1608d85c2e1e94ca07cfb8e19ea07d2c",
+    "crops": {
+      "before": {
+        "file": "case-01-before.png",
+        "bbox_original": [
+          45,
+          459,
+          1169,
+          1095
+        ],
+        "size": [
+          1124,
+          636
+        ]
+      },
+      "after": {
+        "file": "case-01-after.png",
+        "bbox_original": [
+          37,
+          1224,
+          1175,
+          1866
+        ],
+        "size": [
+          1138,
+          642
+        ]
+      }
+    }
+  },
+  {
+    "case": 2,
+    "source_filename": "codex-clipboard-6086312f-da11-4175-8172-c15d01f3aafb.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "202867d81659e05bd0af27a7ca3d3cb07712ec451d3de25408363986ed13da86",
+    "crops": {
+      "before": {
+        "file": "case-02-before.png",
+        "bbox_original": [
+          45,
+          459,
+          1169,
+          1095
+        ],
+        "size": [
+          1124,
+          636
+        ]
+      },
+      "after": {
+        "file": "case-02-after.png",
+        "bbox_original": [
+          37,
+          1224,
+          1175,
+          1866
+        ],
+        "size": [
+          1138,
+          642
+        ]
+      }
+    }
+  },
+  {
+    "case": 3,
+    "source_filename": "codex-clipboard-a7a94b27-6d2e-44fa-8660-a7f6823b8f71.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "aa27a88f81e6b71296b69928cdbcde73d9693a0b68e0fef61ebc080f1f68127f",
+    "crops": {
+      "before": {
+        "file": "case-03-before.png",
+        "bbox_original": [
+          45,
+          459,
+          1169,
+          1095
+        ],
+        "size": [
+          1124,
+          636
+        ]
+      },
+      "after": {
+        "file": "case-03-after.png",
+        "bbox_original": [
+          37,
+          1224,
+          1175,
+          1866
+        ],
+        "size": [
+          1138,
+          642
+        ]
+      }
+    }
+  },
+  {
+    "case": 4,
+    "source_filename": "codex-clipboard-1dc4faa5-1aa8-43d4-8235-aad8da5a4afa.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "f004213971ba3e7d68b778cbb23db06bbe7d1479274f3410bfd5aadc1d5cac7b",
+    "crops": {
+      "before": {
+        "file": "case-04-before.png",
+        "bbox_original": [
+          52,
+          459,
+          1153,
+          1076
+        ],
+        "size": [
+          1101,
+          617
+        ]
+      },
+      "after": {
+        "file": "case-04-after.png",
+        "bbox_original": [
+          55,
+          1211,
+          1156,
+          1821
+        ],
+        "size": [
+          1101,
+          610
+        ]
+      }
+    }
+  },
+  {
+    "case": 5,
+    "source_filename": "codex-clipboard-bbec94bb-1744-40c4-9832-59bca8e89981.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "92d551edc8da1f496391b2ccf3240d0de7600db23bb6bec47703860e35fa305f",
+    "crops": {
+      "before": {
+        "file": "case-05-before.png",
+        "bbox_original": [
+          52,
+          459,
+          1153,
+          1076
+        ],
+        "size": [
+          1101,
+          617
+        ]
+      },
+      "after": {
+        "file": "case-05-after.png",
+        "bbox_original": [
+          55,
+          1211,
+          1156,
+          1821
+        ],
+        "size": [
+          1101,
+          610
+        ]
+      }
+    }
+  },
+  {
+    "case": 6,
+    "source_filename": "codex-clipboard-f3d319ea-d386-4b39-b35f-91041aaad73d.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "53dd2ae2647a0ca587a94b2bc7b1c9fbb9ab8012534b571feace3d97c0b3fffa",
+    "crops": {
+      "before": {
+        "file": "case-06-before.png",
+        "bbox_original": [
+          66,
+          473,
+          1147,
+          1079
+        ],
+        "size": [
+          1081,
+          606
+        ]
+      },
+      "after": {
+        "file": "case-06-after.png",
+        "bbox_original": [
+          68,
+          1242,
+          1148,
+          1852
+        ],
+        "size": [
+          1080,
+          610
+        ]
+      }
+    }
+  },
+  {
+    "case": 7,
+    "source_filename": "codex-clipboard-0404946c-2248-41b3-a66b-88d4abbaf736.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "5e695daca92b08018ea36aa63ba1f263e6589c5cd6478a17db55ba11a3dad1e4",
+    "crops": {
+      "before": {
+        "file": "case-07-before.png",
+        "bbox_original": [
+          66,
+          473,
+          1147,
+          1079
+        ],
+        "size": [
+          1081,
+          606
+        ]
+      },
+      "after": {
+        "file": "case-07-after.png",
+        "bbox_original": [
+          68,
+          1242,
+          1148,
+          1852
+        ],
+        "size": [
+          1080,
+          610
+        ]
+      }
+    }
+  }
+]

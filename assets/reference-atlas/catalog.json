@@ -1,0 +1,662 @@
+[
+  {
+    "id": 1,
+    "title": "制备与器件集成",
+    "reference_type": "paired",
+    "layout": "中心主图＋双侧过程链",
+    "observation": "中央主机制最大，窄侧栏放制备过程，局部验证贴近相关图。",
+    "source_filename": "参考图01.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "2d9e5e9c68a7e0ad7ff36239ba750d0d1608d85c2e1e94ca07cfb8e19ea07d2c",
+    "positive_file": "reference-01-positive.png",
+    "positive_bbox_original": [
+      37,
+      1224,
+      1175,
+      1866
+    ]
+  },
+  {
+    "id": 2,
+    "title": "材料定制与应用路线",
+    "reference_type": "paired",
+    "layout": "上下双层路线",
+    "observation": "长渐变箭头串联上层路径，下层以模块和结构图展开。",
+    "source_filename": "参考图02.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "202867d81659e05bd0af27a7ca3d3cb07712ec451d3de25408363986ed13da86",
+    "positive_file": "reference-02-positive.png",
+    "positive_bbox_original": [
+      37,
+      1224,
+      1175,
+      1866
+    ]
+  },
+  {
+    "id": 3,
+    "title": "成果与机制证据",
+    "reference_type": "paired",
+    "layout": "中心成果＋侧证据",
+    "observation": "非等宽分区，曲线、结构和机理图各有图旁解释。",
+    "source_filename": "参考图03.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "aa27a88f81e6b71296b69928cdbcde73d9693a0b68e0fef61ebc080f1f68127f",
+    "positive_file": "reference-03-positive.png",
+    "positive_bbox_original": [
+      37,
+      1224,
+      1175,
+      1866
+    ]
+  },
+  {
+    "id": 4,
+    "title": "研究背景与地学分类",
+    "reference_type": "paired",
+    "layout": "分类示意＋中间缺口",
+    "observation": "上方核心句，左分类，右侧已知技术与灾害事实共同提出缺口。",
+    "source_filename": "参考图04.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "f004213971ba3e7d68b778cbb23db06bbe7d1479274f3410bfd5aadc1d5cac7b",
+    "positive_file": "reference-04-positive.png",
+    "positive_bbox_original": [
+      55,
+      1211,
+      1156,
+      1821
+    ]
+  },
+  {
+    "id": 5,
+    "title": "地幔动力学模拟",
+    "reference_type": "different-topic",
+    "layout": "模型证据拼图＋任务索引",
+    "observation": "优秀页与上半页预期成果主题不同，只提取优秀页结构。",
+    "source_filename": "参考图05.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "92d551edc8da1f496391b2ccf3240d0de7600db23bb6bec47703860e35fa305f",
+    "positive_file": "reference-05-positive.png",
+    "positive_bbox_original": [
+      55,
+      1211,
+      1156,
+      1821
+    ]
+  },
+  {
+    "id": 6,
+    "title": "多尺度融合机制",
+    "reference_type": "paired",
+    "layout": "总框架＋机制展开",
+    "observation": "通栏问题句，下方总流程、模块作用和侧边输出相互对应。",
+    "source_filename": "参考图06.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "53dd2ae2647a0ca587a94b2bc7b1c9fbb9ab8012534b571feace3d97c0b3fffa",
+    "positive_file": "reference-06-positive.png",
+    "positive_bbox_original": [
+      68,
+      1242,
+      1148,
+      1852
+    ]
+  },
+  {
+    "id": 7,
+    "title": "几何先验引导优化",
+    "reference_type": "paired",
+    "layout": "左流程＋右双层证据",
+    "observation": "虚线框限定子过程，括号表达约束，右侧分提取和验证。",
+    "source_filename": "参考图07.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "5e695daca92b08018ea36aa63ba1f263e6589c5cd6478a17db55ba11a3dad1e4",
+    "positive_file": "reference-07-positive.png",
+    "positive_bbox_original": [
+      68,
+      1242,
+      1148,
+      1852
+    ]
+  },
+  {
+    "id": 8,
+    "title": "事件流感知与决策算法",
+    "reference_type": "layout-placeholder",
+    "layout": "双技术模块＋共同落点",
+    "observation": "上半是两块占位图示意，下半两种技术按标题、图证、贡献组织。",
+    "source_filename": "参考图08.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "a218282029fe15c5156b5e96c8f5960f2225dc7ecebc73c03ed4ac040451994b",
+    "positive_file": "reference-08-positive.png",
+    "positive_bbox_original": [
+      83,
+      1248,
+      1133,
+      1836
+    ]
+  },
+  {
+    "id": 9,
+    "title": "SNN感算一体架构",
+    "reference_type": "layout-placeholder",
+    "layout": "对角图文交错",
+    "observation": "两图对角分布，说明填在互补位置，箭头标签定义处理单元。",
+    "source_filename": "参考图09.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "05ceea9a49e8fff9d34a5332b77b75b2c0226d818ea842f529e13ff0cd2e7710",
+    "positive_file": "reference-09-positive.png",
+    "positive_bbox_original": [
+      83,
+      1248,
+      1133,
+      1836
+    ]
+  },
+  {
+    "id": 10,
+    "title": "事件驱动视觉传感器",
+    "reference_type": "layout-placeholder",
+    "layout": "并列机制对照",
+    "observation": "每半页为标题、结构图、解释、下推贡献，再用通栏结论收束。",
+    "source_filename": "参考图10.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "f181c83af44ea3c9603cc90a74b8704b034919c90ae4417e3e82f3a0586cfa2c",
+    "positive_file": "reference-10-positive.png",
+    "positive_bbox_original": [
+      83,
+      1248,
+      1133,
+      1836
+    ]
+  },
+  {
+    "id": 11,
+    "title": "光电能源系统成果",
+    "reference_type": "single",
+    "layout": "需求—系统—应用",
+    "observation": "单张编辑器截图，中部系统主图，两侧需求与成果，以紫色建立层级。",
+    "source_filename": "参考图11.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "af95e5c7857647ab9691e560b1380f408d0f8fb573030f5448e2712d74eb3904",
+    "positive_file": "reference-11-positive.png",
+    "positive_bbox_original": [
+      155,
+      906,
+      1027,
+      1394
+    ]
+  },
+  {
+    "id": 12,
+    "title": "项目考核指标",
+    "reference_type": "paired",
+    "layout": "目标图示＋原生指标表",
+    "observation": "上方核心要求，中部图文目标，下方居中表格，深蓝表头与浅分隔。",
+    "source_filename": "参考图12.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "64c1c1684096b5d3506bc6bd138363afe168b3c1a2f2e65cab6029074365eb03",
+    "positive_file": "reference-12-positive.png",
+    "positive_bbox_original": [
+      88,
+      1266,
+      1124,
+      1848
+    ]
+  },
+  {
+    "id": 13,
+    "title": "团队主要研究成果",
+    "reference_type": "different-topic",
+    "layout": "主证据＋侧边应用",
+    "observation": "下半主题与上半考核指标不同，机制图为主区，侧栏放应用及照片。",
+    "source_filename": "参考图13.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "101cdd05896919e5afd6eb010d7e6dc3357875838ab39a995b1daa6afeac625c",
+    "positive_file": "reference-13-positive.png",
+    "positive_bbox_original": [
+      88,
+      1266,
+      1124,
+      1848
+    ]
+  },
+  {
+    "id": 14,
+    "title": "研究思路与技术路线",
+    "reference_type": "paired",
+    "layout": "主科学问题＋双应用区",
+    "observation": "顶部战略关联句，左侧科学问题及机制，右侧应用按上下图文组织。",
+    "source_filename": "参考图14.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "cbcf145efdd123673d0f18bbfe3ca209c5955eefe9b49ca2a771ab67dd1e5805",
+    "positive_file": "reference-14-positive.png",
+    "positive_bbox_original": [
+      88,
+      1266,
+      1124,
+      1848
+    ]
+  },
+  {
+    "id": 15,
+    "title": "拟解决的关键问题",
+    "reference_type": "paired",
+    "layout": "需求与方法双区",
+    "observation": "左侧场景和问题，右侧两条机制路径，中间带字箭头明确关系。",
+    "source_filename": "参考图15.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "5a5727ef4019bdf45570fb553b78ffc4ff213165dcc72099b759378e9f3580d9",
+    "positive_file": "reference-15-positive.png",
+    "positive_bbox_original": [
+      88,
+      1266,
+      1124,
+      1848
+    ]
+  },
+  {
+    "id": 16,
+    "title": "经费预算与项目说明",
+    "reference_type": "layout-placeholder",
+    "layout": "两层多图＋资源窄栏",
+    "observation": "按背景、目标和设备资源分组，图片数量十张也有主次和图注。",
+    "source_filename": "参考图16.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "0904030c695c7824269b6cbc40139b6f3a7445283b2879c1ff3815a6c94785ef",
+    "positive_file": "reference-16-positive.png",
+    "positive_bbox_original": [
+      83,
+      1248,
+      1133,
+      1836
+    ]
+  },
+  {
+    "id": 17,
+    "title": "研究基础与工作条件",
+    "reference_type": "layout-placeholder",
+    "layout": "组织与保障双区",
+    "observation": "两区再分管理、制度、资源层级，深色标题签和浅线框统一。",
+    "source_filename": "参考图17.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "09ec75c8f2b9f165f9987a1c94eee892b6a0b4ba74ca2c73607c067d5724b4f4",
+    "positive_file": "reference-17-positive.png",
+    "positive_bbox_original": [
+      83,
+      1248,
+      1133,
+      1836
+    ]
+  },
+  {
+    "id": 18,
+    "title": "研究计划与预期成果",
+    "reference_type": "layout-placeholder",
+    "layout": "分阶段证据＋底部时间线",
+    "observation": "按年度组织图证，底部时间箭头与阶段对应，保持日期和成果一致。",
+    "source_filename": "参考图18.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "5622f03bb7ef1bfbde6e69c0142e9add5631ce68e749b96c1b6a6b4de5ad951c",
+    "positive_file": "reference-18-positive.png",
+    "positive_bbox_original": [
+      83,
+      1248,
+      1133,
+      1836
+    ]
+  },
+  {
+    "id": 19,
+    "title": "研究内容与创新总结",
+    "reference_type": "layout-placeholder",
+    "layout": "三主题＋贯穿对比区",
+    "observation": "上层三项创新各有证据，下层与已有项目区别单独成区。",
+    "source_filename": "参考图19.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "6bcf52824b2c2acb127229d4573aeecc3419315ed8a14f9da0fa9cdf7bd1ab06",
+    "positive_file": "reference-19-positive.png",
+    "positive_bbox_original": [
+      83,
+      1248,
+      1133,
+      1836
+    ]
+  },
+  {
+    "id": 20,
+    "title": "多模态协同利用",
+    "reference_type": "paired",
+    "layout": "阶段箭头＋三组证据",
+    "observation": "原版已有结构，改版统一图框、文字行高、边界和底部结论距离。",
+    "source_filename": "参考图20.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "e0aceef750bcba4fc47fa8bb228eee06438ff2a7cbe7dbebdd4888ef7adba49a",
+    "positive_file": "reference-20-positive.png",
+    "positive_bbox_original": [
+      66,
+      1257,
+      1147,
+      1867
+    ]
+  },
+  {
+    "id": 21,
+    "title": "成像物理补偿",
+    "reference_type": "paired-with-content-caution",
+    "layout": "物理场景＋模型误差双层",
+    "observation": "场景在左，模型及误差在右，顶部任务句、下方定量目标分层；截图部分文本跨题。",
+    "source_filename": "参考图21.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "266d8d8c6543661c4e08aa7a2caadf56a577e727241eb0f36341a7b9e8fcda69",
+    "positive_file": "reference-21-positive.png",
+    "positive_bbox_original": [
+      66,
+      1257,
+      1147,
+      1867
+    ]
+  },
+  {
+    "id": 22,
+    "title": "物理特征融合",
+    "reference_type": "paired",
+    "layout": "主网络图＋三项机制说明",
+    "observation": "改版主要整理对齐与行距，左流程图、右编号说明、底部结果句。",
+    "source_filename": "参考图22.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "730add5723e5b7014b8d10072186c56a2d04353cae7e340c047dbb7d1aa5e7aa",
+    "positive_file": "reference-22-positive.png",
+    "positive_bbox_original": [
+      66,
+      1257,
+      1147,
+      1867
+    ]
+  },
+  {
+    "id": 23,
+    "title": "SAR背景与挑战",
+    "reference_type": "paired",
+    "layout": "场景需求＋挑战矩阵",
+    "observation": "左场景与传统能力，右挑战及方法对应，红色意义条独立收束。",
+    "source_filename": "参考图23.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "1cf49600e945d3261adf35ade00d9bc7d9ae16c15678c7393a99d0455c9672fc",
+    "positive_file": "reference-23-positive.png",
+    "positive_bbox_original": [
+      66,
+      1257,
+      1147,
+      1867
+    ]
+  },
+  {
+    "id": 24,
+    "title": "未来工作计划",
+    "reference_type": "paired",
+    "layout": "近期／远期双区",
+    "observation": "固定蓝色页眉，短长期标签，关键技术句用浅红底，底部红色总结条。",
+    "source_filename": "参考图24.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "70f3731f21ac049fb954b72767e5a117c74660f18f86fdb719ea70f72d283516",
+    "positive_file": "reference-24-positive.png",
+    "positive_bbox_original": [
+      88,
+      1244,
+      1123,
+      1821
+    ]
+  },
+  {
+    "id": 25,
+    "title": "拟开展的研究工作",
+    "reference_type": "paired",
+    "layout": "三问题＋双证据簇",
+    "observation": "上层三关键问题，下面两大系统图组，层次比机械三等分更重要。",
+    "source_filename": "参考图25.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "867a86be910d9be53f388fac1895930ebacb73bb457c0dbfb4c0601587316bd6",
+    "positive_file": "reference-25-positive.png",
+    "positive_bbox_original": [
+      88,
+      1244,
+      1123,
+      1821
+    ]
+  },
+  {
+    "id": 26,
+    "title": "代表性科研成果",
+    "reference_type": "paired",
+    "layout": "技术—算法—性能＋成果带",
+    "observation": "上层三类证据，下层论文专利和双向关联图，关键数字就近强调。",
+    "source_filename": "参考图26.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "270bb0b8123f31932f3202f5a62f498fdece283266212715a4448e1d4802958b",
+    "positive_file": "reference-26-positive.png",
+    "positive_bbox_original": [
+      88,
+      1244,
+      1123,
+      1821
+    ]
+  },
+  {
+    "id": 27,
+    "title": "PEEM时空显微成像",
+    "reference_type": "paired",
+    "layout": "方法窄栏＋中部原理＋右结果",
+    "observation": "紫色页眉，黄字短标签，左三方法，中部原理图，右时序结果。",
+    "source_filename": "参考图27.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "ac42cbf79935dd6f5381f2484a48efe4d5fbb878b28509eca0feb298d9f23aa3",
+    "positive_file": "reference-27-positive.png",
+    "positive_bbox_original": [
+      73,
+      1243,
+      1140,
+      1843
+    ]
+  },
+  {
+    "id": 28,
+    "title": "研究思路与子课题",
+    "reference_type": "paired",
+    "layout": "问题—研究内容—预期成果",
+    "observation": "紫色问题标签，中央三行课题流程较宽，左右问题和目标较窄。",
+    "source_filename": "参考图28.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "e840c214999855e481176bfce8e3c8418e80dfa9cc660ea63bde483c15ad608e",
+    "positive_file": "reference-28-positive.png",
+    "positive_bbox_original": [
+      73,
+      1243,
+      1140,
+      1843
+    ]
+  },
+  {
+    "id": 29,
+    "title": "国家重大需求",
+    "reference_type": "paired",
+    "layout": "政策句＋三类支撑材料",
+    "observation": "上方需求与来源，下方人物、设备和期刊各有说明，紫色为同套模板主题。",
+    "source_filename": "参考图29.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "54c51914bc6f44f5c465da775c69904f806a296ab217ee82be669f9ec891078f",
+    "positive_file": "reference-29-positive.png",
+    "positive_bbox_original": [
+      73,
+      1243,
+      1140,
+      1843
+    ]
+  },
+  {
+    "id": 30,
+    "title": "家禽疫苗研究背景",
+    "reference_type": "layout-placeholder",
+    "layout": "背景要点＋证据双区",
+    "observation": "上方问题要点，左现状、右瓶颈与攻关内容，底部落点。",
+    "source_filename": "参考图30.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "23bced0e1662513a15a26969fd8da485d468ea592a7186ccb3d6af31e29f8ed1",
+    "positive_file": "reference-30-positive.png",
+    "positive_bbox_original": [
+      45,
+      1252,
+      1169,
+      1887
+    ]
+  },
+  {
+    "id": 31,
+    "title": "研究目标与课题分解",
+    "reference_type": "layout-placeholder",
+    "layout": "目标—技术—课题—落地",
+    "observation": "三张源图扩展为四个语义区，标签和梯形题签强调研究分解关系。",
+    "source_filename": "参考图31.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "f5d8b874837fda0893939a909d8544dbcd8f9a74df814f5f2ed39546bd8321bd",
+    "positive_file": "reference-31-positive.png",
+    "positive_bbox_original": [
+      45,
+      1252,
+      1169,
+      1887
+    ]
+  },
+  {
+    "id": 32,
+    "title": "国内外研究现状",
+    "reference_type": "layout-placeholder",
+    "layout": "现状对照＋差距＋底部路径",
+    "observation": "左概念与证据，右国内外区别与短板，底部递进链说明阶段。",
+    "source_filename": "参考图32.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "7423efe42808057aa39cabc042a7c1df6ff5284f404efb9d7e5e775bb013a473",
+    "positive_file": "reference-32-positive.png",
+    "positive_bbox_original": [
+      45,
+      1252,
+      1169,
+      1887
+    ]
+  },
+  {
+    "id": 33,
+    "title": "试剂与疾病净化研究",
+    "reference_type": "layout-placeholder",
+    "layout": "双证据＋中心循环关系",
+    "observation": "两张源图分两侧，中部循环箭头和圆形节点解释过程，底部全链条。",
+    "source_filename": "参考图33.jpg",
+    "source_size": [
+      1212,
+      2616
+    ],
+    "source_sha256": "d82dc12c035d2d8978dbbf48a948c7cdaf26d0abca637961ee83c933d6c912aa",
+    "positive_file": "reference-33-positive.png",
+    "positive_bbox_original": [
+      45,
+      1252,
+      1169,
+      1887
+    ]
+  }
+]
