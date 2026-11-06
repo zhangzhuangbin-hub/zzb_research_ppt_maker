@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<a14:m xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <m:oMathPara xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math">
+    <m:oMath>
+      <m:r>
+        <a:rPr sz="2400">
+          <a:latin typeface="Cambria Math"/>
+        </a:rPr>
+        <m:t>𝑟</m:t>
+      </m:r>
+      <m:r>
+        <a:rPr sz="2400">
+          <a:latin typeface="Cambria Math"/>
+        </a:rPr>
+        <m:t>=</m:t>
+      </m:r>
+      <m:rad>
+        <m:radPr>
+          <m:degHide m:val="on"/>
+          <m:ctrlPr>
+            <a:rPr sz="2400" i="1">
+              <a:latin typeface="Cambria Math" panose="02040503050406030204" pitchFamily="18" charset="0"/>
+            </a:rPr>
+          </m:ctrlPr>
+        </m:radPr>
+        <m:deg/>
+        <m:e>
+          <m:sSup>
+            <m:sSupPr>
+              <m:ctrlPr>
+                <a:rPr sz="2400">
+                  <a:latin typeface="Cambria Math"/>
+                </a:rPr>
+              </m:ctrlPr>
+            </m:sSupPr>
+            <m:e>
+              <m:r>
+                <a:rPr sz="2400">
+                  <a:latin typeface="Cambria Math"/>
+                </a:rPr>
+                <m:t>𝑎</m:t>
+              </m:r>
+            </m:e>
+            <m:sup>
+              <m:r>
+                <a:rPr sz="2400">
+                  <a:latin typeface="Cambria Math"/>
+                </a:rPr>
+                <m:t>2</m:t>
+              </m:r>
+            </m:sup>
+          </m:sSup>
+          <m:r>
+            <a:rPr sz="2400">
+              <a:latin typeface="Cambria Math"/>
+            </a:rPr>
+            <m:t>+</m:t>
+          </m:r>
+          <m:sSup>
+            <m:sSupPr>
+              <m:ctrlPr>
+                <a:rPr sz="2400">
+                  <a:latin typeface="Cambria Math"/>
+                </a:rPr>
+              </m:ctrlPr>
+            </m:sSupPr>
+            <m:e>
+              <m:r>
+                <a:rPr sz="2400">
+                  <a:latin typeface="Cambria Math"/>
+                </a:rPr>
+                <m:t>𝑏</m:t>
+              </m:r>
+            </m:e>
+            <m:sup>
+              <m:r>
+                <a:rPr sz="2400">
+                  <a:latin typeface="Cambria Math"/>
+                </a:rPr>
+                <m:t>2</m:t>
+              </m:r>
+            </m:sup>
+          </m:sSup>
+        </m:e>
+      </m:rad>
+    </m:oMath>
+  </m:oMathPara>
+</a14:m>

@@ -1,0 +1,12 @@
+[
+  {
+    "file": "approved-blue.png",
+    "source_filename": "codex-clipboard-96e9b0ed-4cce-4ab5-8d78-1abe4e6adc12.png",
+    "sha256": "7c62481d1a2b659cb13001e54aff298d6468820d3e4b8361d1eff7bc3c7425b4"
+  },
+  {
+    "file": "rejected-teal.png",
+    "source_filename": "codex-clipboard-d88c19ab-2a16-419d-b78e-b08c67c48dcd.png",
+    "sha256": "a04b6d9d841acecafe6c4445e0a7a1968ebe9ea371bfaaa06cacc89c1bf46a9a"
+  }
+]

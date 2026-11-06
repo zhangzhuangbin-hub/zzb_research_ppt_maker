@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<a14:m xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <m:oMathPara xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math">
+    <m:oMath>
+      <m:r>
+        <a:rPr sz="2400">
+          <a:latin typeface="Cambria Math"/>
+        </a:rPr>
+        <m:t>𝑞</m:t>
+      </m:r>
+      <m:r>
+        <a:rPr sz="2400">
+          <a:latin typeface="Cambria Math"/>
+        </a:rPr>
+        <m:t>=</m:t>
+      </m:r>
+      <m:f>
+        <m:fPr>
+          <m:ctrlPr>
+            <a:rPr sz="2400">
+              <a:latin typeface="Cambria Math"/>
+            </a:rPr>
+          </m:ctrlPr>
+        </m:fPr>
+        <m:num>
+          <m:r>
+            <a:rPr sz="2400">
+              <a:latin typeface="Cambria Math"/>
+            </a:rPr>
+            <m:t>𝑎</m:t>
+          </m:r>
+          <m:r>
+            <a:rPr sz="2400">
+              <a:latin typeface="Cambria Math"/>
+            </a:rPr>
+            <m:t>+</m:t>
+          </m:r>
+          <m:r>
+            <a:rPr sz="2400">
+              <a:latin typeface="Cambria Math"/>
+            </a:rPr>
+            <m:t>𝑏</m:t>
+          </m:r>
+        </m:num>
+        <m:den>
+          <m:r>
+            <a:rPr sz="2400">
+              <a:latin typeface="Cambria Math"/>
+            </a:rPr>
+            <m:t>𝑐</m:t>
+          </m:r>
+          <m:r>
+            <a:rPr sz="2400">
+              <a:latin typeface="Cambria Math"/>
+            </a:rPr>
+            <m:t>+</m:t>
+          </m:r>
+          <m:r>
+            <a:rPr sz="2400">
+              <a:latin typeface="Cambria Math"/>
+            </a:rPr>
+            <m:t>𝑑</m:t>
+          </m:r>
+        </m:den>
+      </m:f>
+    </m:oMath>
+  </m:oMathPara>
+</a14:m>

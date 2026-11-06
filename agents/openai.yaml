@@ -1,4 +1,4 @@
 interface:
   display_name: "zzb 科研汇报PPT制作"
-  short_description: "依据33张参考图制作紧凑科研汇报，细化渐变透明、图形关系、表格与可编辑排版"
-  default_prompt: "使用 $zzb_research_ppt_maker，根据我的资料和目标汇报制作图文紧凑、关系明确、可编辑的科研PPT。"
+  short_description: "35套独立科研版式自由组合，高密度满幅、指定蓝色、原生公式与可编辑图文"
+  default_prompt: "使用 $zzb_research_ppt_maker，根据我的资料和目标汇报制作高信息密度、满幅图文、指定蓝色、原生公式编辑器与可编辑结构的科研PPT。"

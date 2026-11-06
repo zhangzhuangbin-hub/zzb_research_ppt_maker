@@ -1,0 +1,88 @@
+{
+  "version": 2,
+  "default_theme": "user-approved-blue",
+  "palette": {
+    "title": "#071B50",
+    "primary": "#0865CE",
+    "primary_light": "#7DBBFF",
+    "primary_pale": "#B5D9FF",
+    "emphasis": "#A83837",
+    "secondary_text": "#516278",
+    "soft_band": "#E9F2FA",
+    "soft_label": "#EDF4FB",
+    "divider": "#DDE7F0",
+    "background": "#FFFFFF"
+  },
+  "palette_evidence": "Exact common RGB pixels and role-specific crops of approved-blue.png; not original PPT theme metadata.",
+  "disallowed_theme_defaults": [
+    "#124F78",
+    "#086CA8",
+    "#123F75"
+  ],
+  "density": {
+    "scope": "Ordinary research-content slides, measured below the heading within the content boundary.",
+    "planned_region_coverage_percent": [
+      90,
+      95
+    ],
+    "unassigned_space_percent": [
+      5,
+      10
+    ],
+    "outer_margin_width_percent": [
+      2.5,
+      3.3
+    ],
+    "major_gutter_width_percent": [
+      0.6,
+      1.2
+    ],
+    "review_empty_rectangle_min_width_percent": 16,
+    "review_empty_rectangle_min_height_percent": 18,
+    "measurement": "Layout envelope with evidence, explanation, relationships and semantic panels; not pixel ink coverage or background-rectangle area."
+  },
+  "type_pt_16_9": {
+    "title": [
+      28,
+      34
+    ],
+    "thesis": [
+      18,
+      22
+    ],
+    "section": [
+      18,
+      22
+    ],
+    "body": [
+      16,
+      20
+    ],
+    "caption": [
+      13,
+      16
+    ],
+    "source": [
+      10,
+      12
+    ],
+    "display_equation": [
+      20,
+      26
+    ],
+    "matrix": [
+      18,
+      24
+    ]
+  },
+  "equation": {
+    "object": "Native Office equation, OMML in DrawingML math container",
+    "font": "Cambria Math or installed Office-compatible math font",
+    "verify": [
+      "source correspondence",
+      "native structure",
+      "render",
+      "reopen and edit"
+    ]
+  }
+}

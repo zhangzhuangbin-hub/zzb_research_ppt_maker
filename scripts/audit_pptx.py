@@ -11,7 +11,34 @@ import xml.etree.ElementTree as ET
 P='http://schemas.openxmlformats.org/presentationml/2006/main'
 A='http://schemas.openxmlformats.org/drawingml/2006/main'
 R='http://schemas.openxmlformats.org/officeDocument/2006/relationships'
-NS={'p':P,'a':A}
+M='http://schemas.openxmlformats.org/officeDocument/2006/math'
+A14='http://schemas.microsoft.com/office/drawing/2010/main'
+W='http://schemas.openxmlformats.org/wordprocessingml/2006/main'
+MC='http://schemas.openxmlformats.org/markup-compatibility/2006'
+NS={'p':P,'a':A,'m':M,'a14':A14,'mc':MC}
+
+def equation_details(item,name,bounds):
+    equations=item.findall('.//m:oMath',NS)
+    if not equations:
+        return None
+    kinds={'fractions':'f','subscripts':'sSub','superscripts':'sSup',
+           'sub_superscripts':'sSubSup','matrices':'m','radicals':'rad',
+           'delimiters':'d','nary_operators':'nary','equation_arrays':'eqArr'}
+    return {'object':name,'office_math_count':len(equations),
+            'drawing_math_container_count':len(item.findall('.//a14:m',NS)),
+            'text':[''.join(t.text or '' for t in equation.findall('.//m:t',NS)) for equation in equations],
+            'structures':{label:sum(len(eq.findall('.//m:'+tag,NS)) for eq in equations) for label,tag in kinds.items()},
+            'frame_inches':[round(value/914400,3) for value in bounds] if bounds else None,
+            'wordprocessing_elements_review':sum(1 for element in item.iter() if element.tag.startswith('{'+W+'}'))}
+
+def style_colors(item):
+    """Explicit editable fill/text/line RGB values; excludes raster image pixels."""
+    colors={}
+    for color in item.findall('.//a:srgbClr',NS):
+        value=color.get('val','').upper()
+        if re.fullmatch('[0-9A-F]{6}',value):
+            colors[value]=colors.get(value,0)+1
+    return colors
 
 def union_area(rectangles):
     """Area of clipped axis-aligned picture frames without overlap double-counting."""
@@ -46,7 +73,15 @@ def frame(transform,parent):
 def objects(container,parent=(1,1,0,0)):
     for item in container:
         local=item.tag.rsplit('}',1)[-1]
-        if local=='grpSp':
+        if local=='AlternateContent':
+            # PowerPoint saves native equations in Choice plus a bitmap fallback.
+            # Inspect a supported shape branch once to avoid duplicate objects.
+            choices=item.findall('mc:Choice',NS)+item.findall('mc:Fallback',NS)
+            for choice in choices:
+                if any(child.tag in {'{'+P+'}'+kind for kind in ('sp','pic','graphicFrame','cxnSp','grpSp')} for child in choice):
+                    yield from objects(choice,parent)
+                    break
+        elif local=='grpSp':
             transform=item.find('p:grpSpPr/a:xfrm',NS)
             bounds=frame(transform,parent)
             if bounds is None:
@@ -131,12 +166,22 @@ def audit(path,selected):
                   'small_text_candidates':[],'off_canvas_candidates':[],'single_character_candidates':[],
                   'multiline_text_objects':[],'rotated_objects':0,
                   'gradient_object_count':0,'transparent_object_count':0,'shadow_object_count':0,
-                  'dashed_object_count':0,'tables':[]}
+                  'dashed_object_count':0,'tables':[],'equations':[],
+                  'explicit_style_colors':{},'deprecated_theme_color_candidates':[]}
             pictures=[]
             for kind,item,bounds,transform in objects(tree):
                 page['native_object_count']+=1
                 identifier=item.find('.//p:cNvPr',NS)
                 name=identifier.get('name','') if identifier is not None else kind
+                colors=style_colors(item)
+                for color,count in colors.items():
+                    page['explicit_style_colors'][color]=page['explicit_style_colors'].get(color,0)+count
+                deprecated=sorted(set(colors)&{'124F78','086CA8','123F75'})
+                if deprecated:
+                    page['deprecated_theme_color_candidates'].append({'object':name,'colors':deprecated})
+                equation=equation_details(item,name,bounds)
+                if equation is not None:
+                    page['equations'].append(equation)
                 if item.find('.//a:gradFill',NS) is not None:
                     page['gradient_object_count']+=1
                 if any(int(alpha.get('val','100000'))<100000 for alpha in item.findall('.//a:alpha',NS)):

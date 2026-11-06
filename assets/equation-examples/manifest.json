@@ -1,0 +1,22 @@
+[
+  {
+    "file": "fraction.xml",
+    "source": "PowerPoint native math roundtrip",
+    "text": "𝑞=𝑎+𝑏𝑐+𝑑"
+  },
+  {
+    "file": "matrix.xml",
+    "source": "PowerPoint native math roundtrip",
+    "text": "𝐹𝐸=1001 ∈ {0,1}𝑁𝑓×𝑁𝑒"
+  },
+  {
+    "file": "sum.xml",
+    "source": "PowerPoint native math roundtrip",
+    "text": "𝐿=𝑖=1𝑁𝑥𝑖2"
+  },
+  {
+    "file": "radical.xml",
+    "source": "PowerPoint native math roundtrip",
+    "text": "𝑟=𝑎2+𝑏2"
+  }
+]
